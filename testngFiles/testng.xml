@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="TeamStructureTestSuite" verbose="1" >
+    <test name="Validate Team Structure that it have max 4 foreigner and at least one wicketKeeper" >
+        <classes>
+            <class name="TeamStructureTest" />
+        </classes>
+    </test>
+</suite>
